@@ -2,9 +2,10 @@
 % UASC
 
 % Creates a locus of points representing an arc.
-% point = [lat, lon] in degrees
+%
+% TYPE point = [lat, lon] in degrees
 % center = point
-% radius = arc radius in km2deg
+% radius = arc radius in km
 % num_points = number of points to compute along arc (more = slower performance/
 % prettier graph)
 function points = create_arc(center, radius, num_points)

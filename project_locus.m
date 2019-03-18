@@ -2,7 +2,8 @@
 % UASC
 
 % Takes an array of points and projects them into plottable x-y pairs.
-% point  = [lan, lon]
+%
+% TYPE point  = [lan, lon] in degrees
 % points = [point1; point2; ... pointN]
 % center = point
 

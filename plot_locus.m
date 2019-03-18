@@ -1,27 +1,12 @@
-## Copyright (C) 2019 Adam Burroughs
-## 
-## This program is free software: you can redistribute it and/or modify it
-## under the terms of the GNU General Public License as published by
-## the Free Software Foundation, either version 3 of the License, or
-## (at your option) any later version.
-## 
-## This program is distributed in the hope that it will be useful, but
-## WITHOUT ANY WARRANTY; without even the implied warranty of
-## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-## GNU General Public License for more details.
-## 
-## You should have received a copy of the GNU General Public License
-## along with this program.  If not, see
-## <https://www.gnu.org/licenses/>.
+% Adam Burroughs
+% UASC
 
-## -*- texinfo -*- 
-## @deftypefn {} {@var{retval} =} plot_locus (@var{input1}, @var{input2})
-##
-## @seealso{}
-## @end deftypefn
-
-## Author: Adam Burroughs <adamburroughs@Adams-MBP>
-## Created: 2019-03-17
+% Wraps the MATLAB/Octave scatter function. Creates square aspect ratio plots on 
+% the figure provided.
+%
+% x = array of x points
+% y = array of y points
+% fig = figure handle
 
 function [] = plot_locus (x, y, fig)
   figure(fig);

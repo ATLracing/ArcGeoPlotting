@@ -1,6 +1,14 @@
 % Adam Burroughs
 % UASC
 
+% Creates a locus of points representing a geodesic
+%
+% TYPE point = [lat, lon] in degrees
+% pt1 = from point
+% pt2 = to point
+% num_points = number of points to compute along geodesic (more = slower 
+% performance/prettier graph)
+
 function points = create_geodesic (pt1, pt2, num_points)
   points = zeros(num_points, 2);
   points(1, :) = pt1;
